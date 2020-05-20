@@ -24,7 +24,7 @@ public final class DataProperty<T: Equatable> {
         record.setValue(value, forKey: key)
     }
 
-    init(record: CKRecord, key: String) {
+    public init(record: CKRecord, key: String) {
         self.record = record
         self.key = key
     }

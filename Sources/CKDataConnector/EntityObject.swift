@@ -6,7 +6,7 @@
 //
 import CloudKit
 
-public protocol EntityObject: NSObject {
+public protocol EntityObject {
     static var recordType: String { get }
     var record: CKRecord { get }
 }
